@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 <body class="skin-blue">
     <div class="wrapper">
-
+        <a href="/">HomePage</a>
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
 

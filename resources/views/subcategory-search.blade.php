@@ -24,7 +24,8 @@
 							</tr>
 						</thead>
 						<tbody class="category-result-info">
-							@foreach($product_result as $product)
+							@foreach($product_result as $key => $product)
+							@if(is_numeric($key))
 							<tr class="content-info">
 								<td class="activity-date">{{$product->ProductName ?? ""}}</td>								
 								<td class="activity-owner-type">{{$product->SupplierName ?? ""}}</td>
@@ -32,6 +33,7 @@
 								<td class="activity-owner-type">{{$product->MasterCategory ?? ""}}</td>
 								<td class="activity-owner-type">{{$product->SubCategory ?? ""}}</td>
 							</tr>
+							@endif
 							@endforeach
 						</tbody>
 					</table>					

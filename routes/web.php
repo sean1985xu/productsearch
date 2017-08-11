@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('product/category-input');
 });
 
 Route::get('product/category-input', 'ProductController@categoryInput');
