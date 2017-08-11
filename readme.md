@@ -9,4 +9,4 @@ This project is used for a code test to let user search from a json file;
 - subcategory search products page 'product/subcategory-search/{category}/{subcategory}' is the page to display all the product inside the input category and subcategory with pagination;
 
 Main Function is inside app/Http/Controllers/ProductController;
-Main Views are inside resources/views;
+Main Views are inside resources/views folder;
