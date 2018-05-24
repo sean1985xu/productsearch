@@ -12,12 +12,5 @@
 */
 
 Route::get('/', function () {
-    return redirect('product/category-input');
+    return view('welcome');
 });
-
-Route::get('product/category-input', 'ProductController@categoryInput');
-
-Route::get('product/category-search', 'ProductController@categorySearch');
-
-Route::get('product/subcategory-search/{category}/{subcategory}', 'ProductController@subcategorySearch');
-Route::get('product/subcategory-search/{category}/{subcategory}/pages/{page}', 'ProductController@subcategorySearch');
