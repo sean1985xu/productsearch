@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/user');
 });
+
+Route::get('/user/{page?}/{orderBy?}', 'UsersController@index');
