@@ -1,5 +1,5 @@
 
-## Category Search
+## User data display
 
 This project is used for a code test to dispaly user data from a json file;
 
